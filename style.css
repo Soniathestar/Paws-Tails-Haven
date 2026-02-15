@@ -1,0 +1,67 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.sitelogo{
+    height: auto;
+    width: 300px;
+    margin-bottom: 20px;
+    animation: logoBounce 1.5s ease infinite alternate;
+}
+
+#Headerone{
+    font-family: "Playfair Display", serif;
+    font-size: 6rem;
+    font-weight: 900;
+    color: #1b263b;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin: 0;
+    background-color: hotpink;
+    transition: tranform 0.3s ease, clor 0.3s ease;
+}
+
+#Headerone span {
+    cursor: pointer;
+    transition: transform 0.25s ease;
+    color: #fff700;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+}              
+
+#Headerone span:hover{
+    transform: scale(1.2) rotate(-5deg);
+    color: #ff4500;
+}
+
+#PageHeader{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #ff69b4, #ff1493);
+    color: #fff;
+    padding: 0 20px;
+}
+
+.mainnavigation ul{
+    list-style: square;
+    display: flex;
+    gap: 25px;
+    padding:0;
+    margin: 0;
+}
+
+.mainnavigation a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.mainnavigation a:hover
