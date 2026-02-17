@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+    <h1 id="servicesh1">🔆OUR SERVICES🔆</h1>
+    </header>
+    <nav id="servicesnav">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About us</a></li>
+        </ul>
+    </nav>
+ 
+    <section class="servicesbox">
+        <div class="service" onclick="showService('grooming')">
+            <div class="icon">✂️</div>
+            <h3>GROOMING</h3>
+        </div>
+
+        <div class="service" onclick="showService('boarding')">
+            <div class="icon">🏘️</div>
+            <h3>BOARDING FACILITIES</h3>
+        </div>
+
+        <div class="service" onclick="showService('training')">
+            <div class="icon">🐕‍🦺</div>
+            <h3>TRAINING</h3>
+        </div>
+
+        <div class="service" onclick="showService('adoption')">
+        <div class="icon">🤍</div>
+        <h3>ADOPTION & REHOMING PROGRAMS</h3>
+        </div>
+
+        <div class="service" onclick="showService('photography')">
+            <div class="icon">📸</div>
+            <h3>DOG PHOTOGRAPHY SESSIONS</h3>
+        </div>
+
+        <div id="servicedetails" class="detailsbox">
+            <p id="detailstext">🐾These are the services we offer here at Paws & Tails Haven🐾</p>
+        </div>
+    </section>
+
+    <div class="formcontainer">
+        <h2>😋Request for a service😋</h2>
+
+        <form action="#" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter you full name please" required>
+
+            <label for="email">Your email address</label>
+            <input type="email" id="email" name="email" placeholder="example@gmail.com">
+
+            <label for="phone">Phone Number</label>
+            <input type="phone" id="phone" placeholder="+254 7XX XXX XXX" Required>
+
+            <label for="service">Select desired Service</label>
+            <select name="service" id="service" required>
+                <option value="">--CHOOSE A SERVICE--</option>
+                <option value="grooming">Grooming</option>
+                <option value="boarding">Boarding</option>
+                <option value="training">Training</option>
+                <option value="adoption">Adoption</option>
+                <option value="photography">Photography</option>
+            </select>
+
+            <label for="message">Additional comments</label>
+            <textarea name="message" id="message" placeholder="Any special details?"></textarea>
+
+            <button type="submit">Submit service request</button>
+        </form>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
