@@ -35,3 +35,24 @@ for(let char of text) {
   console.error("Service type not found"+ type);
 } 
 }
+
+const form = document.querySelector("form");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault(); // stop page reload
+
+  const formData = {
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    phone: document.getElementById("phone").value,
+    service: document.getElementById("service").value,
+    message: document.getElementById("additional notes").value
+  };
+
+  // Save to local storage
+  localStorage.setItem("serviceRequest", JSON.stringify(formData));
+
+  alert("✅ Your request has been saved!");
+
+  form.reset();
+});
