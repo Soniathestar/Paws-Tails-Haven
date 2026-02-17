@@ -1,6 +1,9 @@
 # Paws&Tails Haven Website
 Paws&Tails Haven is a modern, responsive website designed for a dog care business offering grooming, boarding, training, adoption programs, and dog photography services. The website is built using HTML, CSS, and JavaScript, with interactive features that enhance user experience.
 
+# Live link
+
+
 The goal of this project is to provide an online presence for Paws&Tails Haven, allowing dog owners to learn about services, request bookings, and explore the company’s achievements and testimonials.
 
 # Features
