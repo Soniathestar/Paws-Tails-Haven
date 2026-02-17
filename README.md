@@ -8,7 +8,6 @@ The goal of this project is to provide an online presence for Paws&Tails Haven, 
 Describes and welcomes the user to the Paws&Tails Haven page
 Allows the user to see the mission, vision and core values of our company
 2. About Page
-
 Projects & Achievements: Highlights adoptions, grooming campaigns, training programs, and photography events.
 Testimonials: Shows happy dog owners’ stories.
 Milestone Stats: Animated counters showing total dogs adopted, trained, grooming drives, and photography sessions.
@@ -44,46 +43,17 @@ JavaScript – For service info interactions and animated milestone counters.
 
 # Installation & Setup
 Clone or download the repository:
-git clone 
-
-
+git clone https://github.com/Soniathestar/Paws-Tails-Haven.git
 Open index.html in any web browser to view the landing page.
-
 Navigate between pages using the navbar links.
-
-To modify content:
-
-Update about.html for About Page details
-
-Update style.css or about.css for custom styles
-
-Update script.js for interactive features
-
-Customization Tips
-
-Add more services: Duplicate a .card in the projects or services section.
-
-Update stats: Change the data-target values in the About page stats section.
-
-Change colors/gradients: Modify CSS linear-gradient values for a fresh theme.
-
-Add images: Place images in the images/ folder and update <img> src attributes.
-
-Future Improvements
-
-Add a contact form backend to process service requests.
-
-Add a testimonial slider for better interactivity.
-
-Include animations for cards when scrolling into view.
-
-Implement multi-language support for wider accessibility.
+Visit about.html for About Page details
+Visit style.css for custom styles
+Visit script.js for interactive features
 
 Author
 
 Sonia Ngaruiya – Founder & Developer
-Email: your-email@example.com
+Email: soniangaruiya@gmail.com
 
 License
-
-This project is open-source and free to use for educational or personal purposes.
+MIT License
